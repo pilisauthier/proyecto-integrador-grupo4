@@ -4,36 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Play&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
     <title>Home</title>
 </head>
 <body>
     <header>
-        <a href="home.html"><img src="css/logo.png"></a>
+        <a class="logo" href="home.html"><img class="logo" src="file:///Users/mateovallejo/Downloads/chess-knight-solid.svg"></a>
         <nav>
             <ul>
-                <li><a href="playlist.html">PlayList</a></li>
-                <li><a href="genres.html">Géneros</a></li>
+                <li><a href="playlist.html"><i class="fas fa-list"></i> PlayList</a></li>
+                <li><a href="genres.html"><i class="fas fa-headphones-alt"></i> Géneros</a></li>
+                <li><a href=""><i class="fas fa-sign-in-alt"></i> LogIn</a></li>
             </ul>
         </nav>
-    </header>
-    <header class="header2">
-        <form action="" target="_blank" method="GET">
-            <input type="text" name="buscarmusica" placeholder="Canciones, Artistas, Álbum">
-            <input type="submit" value="BUSCAR">
+        <form class="buscador1" action="" target="_blank" method="GET">
+            <input class="buscador" type="text" name="buscarmusica" placeholder="Canciones, Artistas, Álbum">
+            <input class="boton1" type="button" value="BUSCAR">
         </form>
-    </header>
+    </header>    
     <footer>
         <ul>
             <li><h3>CONTACTO</h3></li>
-            <li><img src="css/mail.png">Mail:<a href="mailto:musiclink@musicmail.com"> musiclink@musicmail.com</a></li>
-            <li><img src="css/tel.png">Teléfono:<a href="tel:+54 9 8943870977"> +54 9 8943870977</a></li>
+            <li><i class="fas fa-envelope-square"></i> <a href="mailto:musiclink@mail.com"> musiclink@mail.com</a></li>
+            <li><i class="fas fa-phone-square-alt"></i> <a href="tel:+54 9 8943870977"> +54 9 8943870977</a></li>
             <li><a><img></a></li>
         </ul>
         <ul>
             <li><h3>SEGUINOS</h3></li>
-            <li><a href=""><img src="css/facebook.png">FACEBOOK</a></li>
-            <li><a href=""><img src="css/instagram.png">INSTAGRAM</a></li>
-            <li><a href=""><img src="css/youtube.png">YOUTUBE</a></li>
+            <li><a href=""><i class="fab fa-facebook-square"></i> FACEBOOK</a></li>
+            <li><a href=""><i class="fab fa-instagram-square"></i> INSTAGRAM</a></li>
+            <li><a href=""><i class="fab fa-youtube-square"></i> YOUTUBE</a></li>
+        </ul>
+        <ul>
+            <li><h3>NEWSLETTER</h3></li>
+            <li><form><input type="email" placeholder="TU EMAIL"><input class="boton2" type="button" value="SUSCRIBIRME"></form></li>
+        </ul>
+        <ul>
+         <li><h3>UBICACIÓN</h3></li>
+         <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.44379603287!2d-58.50351034959198!3d-34.61566235886307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1618529360147!5m2!1ses!2sar" width="300" height="130" style="border:0;" allowfullscreen="" loading="lazy"></iframe></li>
         </ul>
     </footer>
 </body>

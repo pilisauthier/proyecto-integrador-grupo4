@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #FF2020;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    margin-left: 2%;
+    width: 40px;
+    height: 60px;
+    margin-left: 20px;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    color: black;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav li{
+    margin: 20px;
+    font-size: 30px;
+}
+nav, header form{
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    background-color: #DB1010;
+    font-size: 20px;
+}
+.buscador{
+    background-color:rgb(255, 255, 255);
+    box-shadow: none;
+}
+.boton2, .boton1{
+    background-color: black;
+    color: #DB1010;
+    border: 0;
+    border-radius: 3px;
+}
