@@ -15,10 +15,8 @@ header{
     margin: 0;
 }
 .logo{
-    margin-left: 2%;
-    width: 40px;
-    height: 60px;
-    margin-left: 20px;
+    margin-left: 3%;
+    width: 15%;
 }
 li, a{
     text-decoration: none;
@@ -30,6 +28,7 @@ a{
 nav ul{
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
 }
 nav li{
     margin: 20px;
@@ -46,15 +45,17 @@ footer{
     background-color: #DB1010;
     font-size: 20px;
 }
-.buscador{
+.buscador, .cajanl{
     background-color:rgb(255, 255, 255);
     box-shadow: none;
+    height: 30px;
 }
 .boton2, .boton1{
     background-color: black;
     color: #DB1010;
     border: 0;
     border-radius: 3px;
+    height: 30px;
 }
 /* Home */
 .cancionfoto{
@@ -65,7 +66,6 @@ footer{
 .canciones ul, .albums ul, .artistas ul{
     display: flex;
     padding: 0 2%;
-
 }
 .canciones a, .albums a, .artistas a{
     width: 30%;
@@ -82,4 +82,20 @@ footer{
 }
 h3{
     margin-left: 5%;
+}
+.playlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.cancionfotopl{
+    height: 8%;
+    width: 8%;
+    margin: 0%;
+    margin-right: 2%;
+}
+.fila1{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
 }
