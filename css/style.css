@@ -12,7 +12,7 @@ header{
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: #FF2020;
+    background-color: #DB1010;
     padding: 0;
     margin: 0;
 }
@@ -87,7 +87,7 @@ footer{
 h3{
     margin-left: 5%;
 }
-.playlist{
+.playlist, .playlist1{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -103,13 +103,57 @@ h3{
     color: #ffffff;
     align-items: center;
 }
-/* DETALLE ALBUM */
-@media (max-width: 800px){
+ /* RESPONSIVE DESIGN */
+@media (max-width: 420px){
+/* HEADER Y FOOTER */
     header, footer{
         display: flex;
         flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .logo{
+        margin-left: 88%;
+        margin-right: 100%;
     }
     nav li{
-        font-size: 10%;
+        font-size: 10px;
+    }
+    header nav, footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    header ul{
+        width: 100%;
+    }
+    footer ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    footer li{
+        margin: 0,5%;
+    }
+    footer h3{
+        margin-top: 0;
+    }
+    footer ul{
+        margin-top: 1%;
+    }
+    .playlist li{
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+    .playlist .cancionfotopl{
+        width: 100%;
+        margin-bottom: 6%;
+    }
+    .playlist{
+        padding-left: 0;
+        margin-left: 0;
     }
 }
