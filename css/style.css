@@ -103,6 +103,10 @@ h3{
     color: #ffffff;
     align-items: center;
 }
+.fas fa-chess-knight{
+    width: 30%;
+    height: 40%;
+}
  /* RESPONSIVE DESIGN */
 @media (max-width: 420px){
 /* HEADER Y FOOTER */
@@ -112,9 +116,9 @@ h3{
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .logo{
-        margin-left: 88%;
-        margin-right: 100%;
+    .fas fa-chess-knight{
+        margin-left: 50%;
+        margin-right: 50%;
     }
     nav li{
         font-size: 10px;
